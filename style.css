@@ -1,0 +1,137 @@
+body{
+    font-family: poppins;
+    margin: 0;
+    
+}
+h1{
+    font-size:  30px;
+}
+h3{
+    font-weight: 700px;
+    font-size: 15px;
+}
+h1,h3,p{
+    margin: 30px;
+}
+p{
+    font-size: 12px;
+    text-align: justify;
+}
+.highlight{
+    color:orange;
+}
+.half-width{
+    width: 43%;
+    float: left;
+    margin-left: 50px;
+}
+.half-width img{
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 10px;
+    
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+}
+section{
+    height: 400px;
+    padding-bottom: 30px;
+}
+.link-button{
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image: linear-gradient(salmon,tomato);
+    color: white;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+/* 2ndpart */
+.half-width2 img{
+    width:25%;
+    margin-left: 90px; 
+    float: left;
+    
+
+}
+.half2{
+    margin-left: 400px;
+    
+}
+
+
+h2,h4{
+    margin-left: 260px;
+    
+    
+} 
+.para{
+    margin-left: 260px;
+    text-align: justify;
+}
+.button2{
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image: linear-gradient(salmon,tomato);
+    color: white;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 70px;
+}
+
+/* 3rd half */
+.halfwidth{
+    width: 40%;
+    float: left;
+    border: 2 px solid red;
+    margin-left: 80px;
+    
+}
+h5{
+    margin: 30px;
+    color: goldenrod;
+}
+.experience h2{
+    margin-left: 110px;
+}
+
+.shadow{
+    box-shadow: 10px 10px 40px  gray;
+    height: 240px;
+    border-radius: 5px;
+    /* background-color: white; */
+
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#straight{
+    border-left: 7px solid ;
+    border-image: linear-gradient(gold,tomato);
+    border-image-slice: 1;
+}
+#line{
+    border-left: 7px solid;
+    border-image: linear-gradient( blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    
+    font-weight:  600;
+}
